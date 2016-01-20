@@ -1,0 +1,45 @@
+#table
+{
+	width:690px;	
+	margin: 0px;
+	padding: 0px;
+	background-color: #fff;
+	background-image: url('../images/homepage/spaceman.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0 0;
+}
+	
+div#header
+{
+	width: 300px;	
+	margin:  0px 0px 60px 350px;
+	text-align: center;
+	padding: 10px;
+}
+
+div#content
+{
+	width: 590px; 
+	margin:  20px 0px 400px 30px;
+	padding: 10px;
+	border: 1px dashed #ccc;
+	color: #000;
+}
+div#content { 	
+	background-color: #fff;
+	background-image: url('../images/homepage/spaceman-fade.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position:	expression((calculateBgX(this))+"px "+(calculateBgY(this))+"px"); /* ie hack */
+}
+	#footerhome
+{
+	width: 600px;
+	clear: both;
+	margin: 20px 0px 20px 30px;
+	text-align: left;
+	padding: 10px;
+	background-color: #fff;
+	border: 1px dashed #ccc;
+}

@@ -1,0 +1,11 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #428cde url(images/background-home.gif) repeat-x top right;
+
+	text-align: left;
+}
+
+img {
+	border: none;
+}

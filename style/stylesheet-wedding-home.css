@@ -1,0 +1,58 @@
+body{font-family:Verdana,Arial,Helvetica,sans-serif;color:#222;font-size:12px;line-height:18px;font-weight:normal;margin:0px;padding:0px;background:white url(../images/wedding/mark+lizzy200.jpg) top left repeat;}
+.maintext{font-weight:normal;}
+h1{font-size:24px;line-height:32px;font-weight:bold;margin-top:0px;}
+h2,h3,h4,h5,h6,.headertext{font-size:16px;line-height:20px;font-weight:bold;}
+.headertext2{font-size:14px;line-height:20px;font-weight:bold;}
+.hugetext{font-size:48px;line-height:36px;font-weight:bold;}
+address{font-style:normal;margin-top:0px;}
+a:link{text-decoration:none !important;color:#f09 !important;}
+a:visited{text-decoration:none !important;color:#f3a;}
+a:hover{text-decoration:none !important;}
+a:active{text-decoration:none !important;color:#f6a;}
+.subheadertext{font-size:14px;line-height:20px;font-weight:bold;color:#300;}
+.mainnav{font-weight:bold;color:#fff;}
+a.mainnav{text-decoration:none !important;color:#606 !important;}
+a.mainnav:hover{text-decoration:underline;color:#fff !important;}
+.caption{font-size:10px;line-height:14px;color:#666;}
+.copyright{font-size:10px;line-height:12px;color:#666;}
+div#main ul.block{padding-left:15px;display:block;list-style-type:disc;}
+div#main li.block{display:block;font-weight:bold;list-style-type:disc;}
+div#main ol.block2{padding-left:15px;display:block;list-style-type:decimal;}
+div#main li.block2{display:block;list-style-type:decimal;}
+em{font-style:italic;}
+b,strong{font-weight:bold;}
+.super{font-size:11px;color:#666;}
+.indent{margin-left:20px;}
+.boldtext{font-weight:bold;}
+.centre{text-align:center;}
+a.boldtext{text-decoration:none !important;color:#333 !important;}
+div#topnav{width:690px;margin:0px 0px 20px 0px;padding-top:10px;text-align:center;height:28px;background:#FF7CB5;color:#fff;}
+div#topnav ul{border:0;margin:0;padding:0;list-style-type:none;text-align:left;}
+div#topnav ul,li{display:inline;}
+div#topnav li.inline{padding-left:10px;padding-right:10px;border-left:1px solid #fff;color:#fff;}
+div#topnav li.first{padding-left:10px;padding-right:10px;border-left:0px solid #000 !important;}
+div#main{width:640px;margin:335px 20px 20px 20px;padding:5px;color:#000;background:white;
+filter:alpha(opacity=80);
+-moz-opacity:.80;
+opacity:.80;}
+div#table{width:690px;margin:0px auto 160px auto;background:white url(../images/wedding/mark-and-lizzy-honeymoon.jpg) top center no-repeat;height:800px;
+/*filter:alpha(opacity=92);
+-moz-opacity:.92;
+opacity:.92;*/}
+div.spacer{clear:both;}
+div.r460{float:right;width:460px;}
+div.r420{float:right;width:420px;}
+div.r350{float:right;width:350px;}
+div.r300{float:right;width:300px;}
+div.r250{float:right;width:250px;}
+div.r200{float:right;width:200px;}
+div.r125{float:right;width:125px;}
+div.l400{float:left;width:400px;padding-right:10px;}
+div.l350{float:left;width:350px;padding-right:10px;}
+div.l300{float:left;width:300px;padding-right:10px;}
+div.l250{float:left;width:250px;padding-right:10px;}
+div.l210{float:left;width:200px;padding-right:10px;text-align:top;clear:all;}
+div.l150{float:left;width:150px;padding-right:10px;}
+div.l125{float:left;width:125px;padding-right:10px;}
+div.photoright{float:right;margin:0px;text-align:left;}
+div.photoleft{float:left;margin:0px;text-align:left;}

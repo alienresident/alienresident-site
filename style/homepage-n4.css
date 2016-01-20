@@ -1,0 +1,124 @@
+body {
+	padding: 0px;
+	background: white url(images/homepage/spaceman-bkg2.jpg) 0 0 repeat-y;
+}
+
+div#header
+{
+	width: 400px;	
+	margin: 30px 0 10px 250px;
+	text-align: center;
+	padding: 10px;
+}
+
+div#content
+{
+	width: 610px; 
+	margin: 20px 0px 40px 30px;
+	padding: 10px;
+	border: 1px dashed #ccc;
+	background: white;
+}
+p, h1, h2, h3, span
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #000;
+}
+.headertext
+{
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+}
+strong, b
+{
+	line-height: 18px;
+	font-weight: bold;
+}
+.mainnav
+{
+	font-weight: bold;
+
+}
+a.mainnav
+{
+	text-decoration: none !important;
+	color: #ccc !important;
+}
+a:link, a:visited, a:active
+{
+	text-decoration: none;
+	color: #c00;
+}
+.copyright
+{
+	font-size: 10px;
+	line-height: 10px;
+	font-weight: normal;
+	color: #666;
+}
+
+a.copyright
+{
+	font-size: 10px !important;
+	line-height: 10px !important;
+	font-weight: normal;
+	text-decoration: none;
+	color: #c00 !important;
+}	
+#table {
+	width: 690px;	
+	padding: 0px;;
+	}
+	
+#topnav {
+	position: absolute;
+	top: -12px;
+	left: -4px;
+	width: 697px;
+	height: 28px;
+	border: 0px;
+	text-align: left;
+	padding: 7px;
+	background: black url(images/main/alienresident-top-bar.gif) left no-repeat fixed;
+	}
+
+li, ul
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+}
+#topnav ul {
+	list-style-type: none;
+	text-align: left;
+	display: inline;
+	}
+
+#topnav ul, li {
+	display: inline;
+	list-style-type: none;
+	}
+
+li.first {
+	list-style-type: none;
+	display: inline;
+	}
+
+#topnav img {
+	display: none;
+	float: right;	
+	}
+#footerhome
+{
+	width: 610px;
+	clear: both;
+	margin: 400px 0px 20px 30px;
+	text-align: left;
+	padding: 10px;
+	background-color: #fff;
+	border: 1px dashed #ccc;
+}
