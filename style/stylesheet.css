@@ -36,7 +36,7 @@ div#topnav ul{border:0;margin:0;padding:0;list-style-type:none;text-align:left;}
 div#topnav ul,li{display:inline;}
 div#topnav li.inline{padding-left:5px;padding-right:5px;border-left:1px solid #fff;}
 div#topnav li.first{padding-left:40px;padding-right:5px;border-left:0px solid #000 !important;}
-div#main{width:640px;margin:20px 30px 20px 30px;padding:5px;}
+#main{width:640px;margin:20px 30px 20px 30px;padding:5px;}
 ul.block,li.block{display:block;font-weight:bold;list-style-type:disc !important;}
 div.spacer{clear:both;}
 div.r350{float:right;width:350px;}
@@ -141,4 +141,19 @@ h1.resume.header {
 
 .headertext.p-tel {
   font-style: italic;
+}
+
+/* Reel Page */ 
+figure.videoplayer {
+    margin: 0;
+}
+figure.videoplayer video {
+    background: #000;
+}
+select#dirurl {
+    display: none;
+}
+form#dropdown_menu {
+    float: right;
+    margin-bottom: 1em;
 }
