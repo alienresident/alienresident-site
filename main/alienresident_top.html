@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/2000/REC-xhtml1-20000126/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>-: alienresident.net :-</title>
+
+<script language="Javascript" type="text/javascript">
+function removeFrame(){
+top.location = parent.bottomUrl
+}
+
+function closeWnd(){
+window.parent.close();
+}
+
+if (document.images) { 
+topnav1on = new Image();  
+topnav1on.src = "../images/main/alienresident_dot_net_over.gif";
+topnav1off = new Image();   
+topnav1off.src = "../images/main/alienresident_dot_net.gif";
+}
+
+function navOn(imgName) {
+    if (document.images) {
+      document[imgName].src = eval(imgName + "on.src");
+    }
+}
+
+function navOff(imgName) {
+    if (document.images) {
+      document[imgName].src = eval(imgName + "off.src");
+    }
+}
+</script>
+</head>
+
+<body>
+<table cellpadding="0" cellspacing="0" border="0" width="760">
+<tr><td width="100" align="left"><a href="javascript:removeFrame()"><img src="../images/main/remove_frame.gif" width="90" height="11" alt="Remove Frame" border="0" hspace="15" title="Remove Frame" /></a></td>
+<td align="center" width="500"><a href="http://www.alienresident.net/" onmouseover="navOn('topnav1')" onmouseout="navOff('topnav1')"><img name="topnav1" src="../images/main/alienresident_dot_net.gif" width="232" height="20" border="0" alt="return to alienresident.net homepage" /></a></td>
+<td width="160" align="right"><a href="#" onclick="closeWnd()"><img src="../images/main/close_window.gif" alt="Close Window" width="90" height="11" border="0" /></a></td></tr>
+</table>
+</body>
+</html>
