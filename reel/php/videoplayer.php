@@ -6,7 +6,8 @@
   <meta charset="utf-8">
   <title><?php print $website_title; ?></title>
 <?php if($responsive): ?>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <!--meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"-->
+  <meta name="viewport" content="width=690" />
 <?php endif; ?>
 <?php if($mediaelementplayer): ?>
   <link rel="stylesheet" href="<?php print $root_dir ?>css/mediaelementplayer.min.css">
