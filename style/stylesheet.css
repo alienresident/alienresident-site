@@ -88,7 +88,7 @@ ul.bullets {display:block; list-style: disc; line-height:1.8em; list-style-posit
 .bullets li {display:block; list-style-type: disc;}
 .elsewhere.box { float: right; margin:0 1em; }
 ul.elsewhere { margin: 0; padding: 0; display: block; }
-ul.elsewhere li { margin: 0; padding: .125em 0; display: block; font-size: 16px; line-height: 1.75em;}
+ul.elsewhere li { margin: 0; padding: .125em 0; display: block; font-size: 16px; line-height: 1.25em;}
 @font-face {
 	font-family: 'icomoon';
 	src:url('../fonts/icomoon.eot');
