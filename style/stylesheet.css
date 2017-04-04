@@ -40,6 +40,7 @@ a.boldtext{text-decoration:none;color:#333;}
 #topnav li.first{padding-left:3.75em;padding-right:1em;border-left:0px solid #000;}
 #main{width:640px;margin:20px 30px 20px 30px;padding:5px;}
 ul.block,li.block{display:block;font-weight:bold;list-style-type:disc;}
+.spacer{clear:both;}
 .r350{float:right;width:350px;}
 .r300{float:right;width:300px;}
 .r250{float:right;width:250px;}
