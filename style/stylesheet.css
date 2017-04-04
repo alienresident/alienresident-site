@@ -39,9 +39,6 @@ a.boldtext{text-decoration:none;color:#333;}
 #topnav li.inline{padding-left:1em;padding-right:1em;border-left:1px solid #fff;}
 #topnav li.first{padding-left:3.75em;padding-right:1em;border-left:0px solid #000;}
 #main{width:640px;margin:20px 30px 20px 30px;padding:5px;}
-.lnavtext{font-family:Arial,Helvetica,Verdana,sans-serif;font-size:14px;line-height:24px;font-weight:bold;}
-a.lnavtext{text-decoration:none !important;color:#333 !important;}
-a.lnavtext:hover{color:#b00 !important;}
 ul.block,li.block{display:block;font-weight:bold;list-style-type:disc;}
 .r350{float:right;width:350px;}
 .r300{float:right;width:300px;}
@@ -65,6 +62,12 @@ ul.block,li.block{display:block;font-weight:bold;list-style-type:disc;}
 .photoleft{float:left;margin:10px 10px 10px 0;padding-right:10px;text-align:left;}
 .resright{float:right;margin:0px;padding:10px;text-align:right;}
 .resleft{float:left;margin:0px;padding:0px;text-align:left;}
+#lnav{float:left;top:55px;width:115px;text-align:left;margin-left:12px;padding:0px;display:block;}
+#lnav img{padding:5px 0px 10px 5px;}
+#lnav ul,li{list-style-type:none;list-style-position:outside;margin:0px;padding:0px;}
+#lnav li{font-family:Arial,Helvetica,Verdana,sans-serif;font-size:14px;line-height:24px;font-weight:bold;}
+#lnav li a{text-decoration:none;color:#333;}
+#lnav li a:hover{color:#b00;}
 .nextprev{font-family:Arial,Helvetica,Verdana,sans-serif;font-size:10px;line-height:24px;margin-left:12px;font-weight:bold;}
 a.nextprev{text-decoration:none !important;color:#aaa !important;}
 a.nextprev:hover{color:#666 !important;}
