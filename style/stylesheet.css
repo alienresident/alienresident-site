@@ -100,7 +100,7 @@ ul.elsewhere li { margin: 0; padding: .125em 0; display: block; font-size: 16px;
 	font-style: normal;
 }
 
-[class*="icon"] {
+[class*="icon"]:before {
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
