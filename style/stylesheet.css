@@ -77,7 +77,7 @@ div#lmain {float:left;width:540px;margin:55px 0 10px 10px;text-align:left;paddin
 div#nextnav {width:95%;margin:0px 0px 0px 0px;text-align:right;padding:0px;}
 div#footer {width:640px;margin:10px 0px 20px 30px;text-align:left;padding:20px 5px 10px 0;background-color:#fff;border-top:1px dashed #ccc;clear:both;}
 abbr { border-bottom-width: 1px; border-bottom-style: dotted; text-transform:uppercase;}
-ul.bullets {display:block; list-style: disc !important; line-height:1.8em; list-style-position:inside;}
+ul.bullets {display:block; list-style: disc; line-height:1.8em; list-style-position:inside;}
 .bullets li {display:block; list-style-type: disc;}
 .elsewhere.box { float: right; margin:0 1em; }
 ul.elsewhere { margin: 0; padding: 0; display: block; }
