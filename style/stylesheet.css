@@ -6,16 +6,16 @@ h1,h2,h3,h4,h5,h6,.headertext{font-size:1.5em;line-height:1.25;font-weight:bold;
 .headertext3{font-size:14px;line-height:20px;font-weight:bold;margin:0 0 -8px 0;}
 .hugetext{font-size:48px;line-height:36px;font-weight:bold;}
 address{font-style:normal;margin-top:0px;}
-a:link{text-decoration:none !important;color:#c00 !important;}
-a:visited{text-decoration:none !important;color:#a00;}
-a:hover{text-decoration:none !important;}
-.redres{font-weight:bold;color:#c00 !important;}
-a.redres{text-decoration:none !important;}
-a.redres:hover{color:#f00 !important;}
+a:link{text-decoration:none;color:#c00;}
+a:visited{text-decoration:none;color:#a00;}
+a:hover{text-decoration:none;}
+.redres{font-weight:bold;color:#c00;}
+a.redres{text-decoration:none;}
+a.redres:hover{color:#f00;}
 a.redres2{margin-left:60px;}
-.redresm{color:#c00 !important;}
-a.redresm{text-decoration:none !important;}
-a.redresm:hover{color:#f00 !important;}
+.redresm{color:#c00;}
+a.redresm{text-decoration:none;}
+a.redresm:hover{color:#f00;}
 .subheadertext{font-size:14px;line-height:20px;font-weight:bold;color:#300;}
 .subnav{text-decoration:none;font-weight:normal;}
 a.subnav{text-decoration:none !important;font-weight:normal;color:#666 !important;}
