@@ -18,13 +18,14 @@ a.redresm{text-decoration:none;}
 a.redresm:hover{color:#f00;}
 .subheadertext{font-size:14px;line-height:20px;font-weight:bold;color:#300;}
 .subnav{text-decoration:none;font-weight:normal;}
-a.subnav{text-decoration:none !important;font-weight:normal;color:#666 !important;}
-a.subnav:hover{text-decoration:underline;color:#222 !important;}
-.mainnav{font-weight:bold;color:#fff;}
-a.mainnav{text-decoration:none !important;color:#aaa !important;}
-a.mainnav:hover{text-decoration:underline;color:#fff !important;}
-.caption{font-size:10px;line-height:14px;color:#666;}
-.copyright{font-size:10px;line-height:12px;color:#666;}
+a.subnav{text-decoration:none;font-weight:normal;color:#666;}
+a.subnav:hover{text-decoration:underline;color:#222;}
+.mainnav{font-weight:bold;color:#fff;font-size: 14px; line-height: 2;}
+.mainnav + object {float:right}
+a.mainnav{text-decoration:none;color:#aaa;}
+a.mainnav:hover{text-decoration:underline;color:#fff;}
+.caption{font-size:12px;line-height:1.5;color:#666;}
+.copyright{font-size:11px;line-height:1.2;color:#666;}
 em{font-style:italic;}
 b,strong{font-weight:bold;}
 .super{font-size:11px;color:#666;}
