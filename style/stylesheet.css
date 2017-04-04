@@ -31,7 +31,6 @@ b,strong{font-weight:bold;}
 .super{font-size:11px;color:#666;}
 .indent{margin-left:20px;}
 .boldtext{font-weight:bold;}
-a.boldtext{text-decoration:none !important;color:#333 !important;}
 div#topnav{width:690px;margin:0px 0px 20px 0px;padding:0;text-align:left;height:28px;background:#000 url(../images/main/alienresident_logo.gif) top left no-repeat;}
 div#topnav img{border:0;margin:0;padding-left:10px;}
 div#topnav ul{border:0;margin:0;padding:0;list-style-type:none;text-align:left;}
@@ -146,6 +145,22 @@ h1.resume.header {
   font-style: italic;
 }
 
+#wrapper {
+    margin: 0 auto;
+    background: #fff;
+    width: 690px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.5), -1px 1px 3px rgba(0,0,0,.5);
+}
+
+#wrapper:before,
+#wrapper:after {
+  content: "";
+  display: table;
+} 
+#wrapper:after {
+  clear: both;
+}
+
 /* Reel Page */ 
 figure.videoplayer {
     margin: 0;
@@ -159,4 +174,6 @@ select#dirurl {
 form#dropdown_menu {
     float: right;
     margin-bottom: 1em;
+}
+ul.crew {
 }
