@@ -1,8 +1,8 @@
 /* body{font-family:Verdana,Arial,Helvetica,sans-serif;color:#222;font-size:15px;line-height:1.5;font-weight:normal;margin:0px;padding:0px;background:white url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZAgMAAAC5h23wAAAACVBMVEWZmZnMzMxmZmYCsrTlAAAAJElEQVQI12MIDAmd6hrowIBOA0EDiMAlT6q6VWDQQDXz0NQBAHGdNmHTQlzLAAAAAElFTkSuQmCC') top left repeat;} */
 body{font-family:Verdana,Arial,Helvetica,sans-serif;color:#222;font-size:15px;line-height:1.5;font-weight:normal;margin:0px;padding:0px;background:#ccc url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 50 50'%3E%3Cpath fill='%23999' d='M4 0h1v50H4z'/%3E%3Cpath fill='%23999' d='M4 0h1v50H4zm10 0h1v50h-1zm20 0h1v50h-1zm10 0h1v50h-1z'/%3E%3Cpath fill='%23999' d='M0 46h50v1H0z'/%3E%3Cpath fill='%23999' d='M0 46h50v1H0zm0-10h50v1H0zm0-20h50v1H0zM0 6h50v1H0z'/%3E%3Cpath fill='%23666' d='M24 0h1v50h-1z'/%3E%3Cpath fill='%23666' d='M0 26h50v1H0z'/%3E%3C/svg%3E") top left repeat;background-size: 50px 50px;}
 .maintext{font-weight:normal;}
-h1,h2,h3,h4,h5,h6,.headertext{font-size:16px;line-height:20px;font-weight:bold;}
-.headertext2{font-size:14px;line-height:20px;font-weight:bold;}
+h1,h2,h3,h4,h5,h6,.headertext{font-size:1.5em;line-height:1.25;font-weight:bold;}
+.headertext2{font-size:1.25em;line-height:1.25;font-weight:bold;}
 .headertext3{font-size:14px;line-height:20px;font-weight:bold;margin:0 0 -8px 0;}
 .hugetext{font-size:48px;line-height:36px;font-weight:bold;}
 address{font-style:normal;margin-top:0px;}
