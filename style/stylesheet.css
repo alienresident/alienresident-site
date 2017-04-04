@@ -186,7 +186,7 @@ figure.videoplayer {
 figure.videoplayer video {
     background: #000;
 }
-select#dirurl {
+.reel select#dirurl {
     display: none;
 }
 form#dropdown_menu {
