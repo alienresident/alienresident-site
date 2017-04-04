@@ -63,6 +63,13 @@ ul.block,li.block{display:block;font-weight:bold;list-style-type:disc;}
 .photoleft{float:left;margin:10px 10px 10px 0;padding-right:10px;text-align:left;}
 .resright{float:right;margin:0px;padding:10px;text-align:right;}
 .resleft{float:left;margin:0px;padding:0px;text-align:left;}
+.resright2{float:right;width:190px;margin:0px;padding:0px;text-align:left;}
+.resleft2{float:left;width:190px;margin:0px;padding:0px;text-align:right;}
+.rescenter{float:left;width:190px;margin:10px;padding:0px;text-align:center;}
+.rescenter2{float:left;margin:0px;padding:0px;text-align:center;}
+#popmain{margin:0px;padding:0px;}
+#black{margin:20px;padding:10px;}
+#black2{margin:0px;padding:5px;background:#000;text-align:right;}
 #lnav{float:left;top:55px;width:115px;text-align:left;margin-left:12px;padding:0px;display:block;}
 #lnav img{padding:5px 0px 10px 5px;}
 #lnav ul,li{list-style-type:none;list-style-position:outside;margin:0px;padding:0px;}
