@@ -1,3 +1,14 @@
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
 /* body{font-family:Verdana,Arial,Helvetica,sans-serif;color:#222;font-size:15px;line-height:1.5;font-weight:normal;margin:0px;padding:0px;background:white url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZAgMAAAC5h23wAAAACVBMVEWZmZnMzMxmZmYCsrTlAAAAJElEQVQI12MIDAmd6hrowIBOA0EDiMAlT6q6VWDQQDXz0NQBAHGdNmHTQlzLAAAAAElFTkSuQmCC') top left repeat;} */
 body{font-family:Verdana,Arial,Helvetica,sans-serif;color:#222;font-size:15px;line-height:1.5;font-weight:normal;margin:0px;padding:0px;background:#ccc url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 50 50'%3E%3Cpath fill='%23999' d='M4 0h1v50H4z'/%3E%3Cpath fill='%23999' d='M4 0h1v50H4zm10 0h1v50h-1zm20 0h1v50h-1zm10 0h1v50h-1z'/%3E%3Cpath fill='%23999' d='M0 46h50v1H0z'/%3E%3Cpath fill='%23999' d='M0 46h50v1H0zm0-10h50v1H0zm0-20h50v1H0zM0 6h50v1H0z'/%3E%3Cpath fill='%23666' d='M24 0h1v50h-1z'/%3E%3Cpath fill='%23666' d='M0 26h50v1H0z'/%3E%3C/svg%3E") top left repeat;background-size: 50px 50px;}
 .maintext{font-weight:normal;}
@@ -52,15 +63,15 @@ ul.block,li.block{display:block;font-weight:bold;list-style-type:disc;}
 .l210{float:left;width:210px;}
 .l150{float:left;width:150px;}
 .l125{float:left;width:125px;}
-.photoright{float:right;margin:10px 0 10px 10px;padding-left:5px;text-align:left;}
+.photoright{float:right;margin:10px 0 10px 10px;padding-left:5px;text-align:left;} 
+.photoleft{float:left;margin:10px 10px 10px 0;padding-right:10px;text-align:left;}
 .photoright img, 
 .photoright img + span,
 .photoleft img, 
 .photoleft img + span {
     display: block;
     margin-bottom: 10px;
-} 
-.photoleft{float:left;margin:10px 10px 10px 0;padding-right:10px;text-align:left;}
+}
 .resright{float:right;margin:0px;padding:10px;text-align:right;}
 .resleft{float:left;margin:0px;padding:0px;text-align:left;}
 .resright2{float:right;width:190px;margin:0px;padding:0px;text-align:left;}
@@ -182,7 +193,6 @@ form#dropdown_menu {
     float: right;
     margin-bottom: 1em;
 }
-
 ul.crew {
     display: block;
     
