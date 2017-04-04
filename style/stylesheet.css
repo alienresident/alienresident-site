@@ -182,5 +182,8 @@ form#dropdown_menu {
     float: right;
     margin-bottom: 1em;
 }
+
 ul.crew {
+    display: block;
+    
 }
