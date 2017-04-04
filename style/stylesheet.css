@@ -38,6 +38,7 @@ div#topnav ul{border:0;margin:0;padding:0;list-style-type:none;text-align:left;}
 div#topnav ul,li{display:inline;}
 div#topnav li.inline{padding-left:5px;padding-right:5px;border-left:1px solid #fff;}
 div#topnav li.first{padding-left:40px;padding-right:5px;border-left:0px solid #000 !important;}
+a.boldtext{text-decoration:none;color:#333;}
 #main{width:640px;margin:20px 30px 20px 30px;padding:5px;}
 ul.block,li.block{display:block;font-weight:bold;list-style-type:disc !important;}
 div.spacer{clear:both;}
