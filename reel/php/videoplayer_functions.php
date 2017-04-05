@@ -243,7 +243,7 @@ function set_video_image_source($file_names_images, $file_names_images_deduped, 
  * set the video tag attributes
  */
 function set_video_tag_attributes($video_tag_attributes, $w, $h, $poster_image_file = null) {
-  $video_tag_open = "<video $poster_image_file$video_tag_attributes width=\"$w\" height=\"$h\">\n";
+  $video_tag_open = "<video $poster_image_file $video_tag_attributes width=\"$w\" height=\"$h\">\n";
   return $video_tag_open;
 }
 
