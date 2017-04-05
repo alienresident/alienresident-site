@@ -43,13 +43,17 @@ b,strong{font-weight:bold;}
 .indent{margin-left:20px;}
 .boldtext{font-weight:bold;}
 a.boldtext{text-decoration:none;color:#333;}
-#topnav{width:690px;margin:0px 0px 20px 0px;padding:0;text-align:left;height:1.8em;background:#000 url(../images/main/alienresident_logo.gif) top left no-repeat;}
+#topnav{width:100%;margin:0px 0px 20px 0px;padding:0;text-align:left;height:1.8em;background:#000 url(../images/main/alienresident_logo.gif) top left no-repeat;}
 #topnav img{border:0;margin:0;padding-left:10px;}
 #topnav ul{border:0;margin:0;padding:0;list-style-type:none;text-align:left; display: inline-block;}
-#topnav li {display: inline-block;}
-#topnav li.inline{padding-left:1em;padding-right:1em;border-left:1px solid #fff;}
-#topnav li.first{padding-left:3.75em;padding-right:1em;border-left:0px solid #000;}
-#main{width:640px;margin:20px 30px 20px 30px;padding:5px;}
+#topnav li{display: inline-block;}
+#topnav li a{text-decoration: none;}
+#topnav li.inline{padding-left:1em;padding-right:1em;border-left:1px solid #aaa;}
+#topnav li.first{padding-left:3.75em;padding-right:1em;border-left:none;}
+#main {
+  margin: 20px auto;
+  padding: 0 25px;
+}
 ul.block,li.block{display:block;font-weight:bold;list-style-type:disc;}
 .spacer{clear:both;}
 .r350{float:right;width:350px;}
@@ -164,12 +168,11 @@ h1.resume.header {
 }
 
 #wrapper {
-    margin: 0 auto;
-    background: #fff;
-    width: 690px;
-    box-shadow: 1px 1px 3px rgba(0,0,0,.5), -1px 1px 3px rgba(0,0,0,.5);
+  margin: 0 auto;
+  background: #fff;
+  width: 690px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.5), -1px 1px 3px rgba(0,0,0,.5);
 }
-
 #wrapper:before,
 #wrapper:after {
   content: "";
@@ -181,19 +184,18 @@ h1.resume.header {
 
 /* Reel Page */ 
 figure.videoplayer {
-    margin: 0;
+  margin: 0;
 }
 figure.videoplayer video {
-    background: #000;
+  background: #000;
 }
 .reel select#dirurl {
-    display: none;
+  display: none;
 }
 form#dropdown_menu {
-    float: right;
-    margin-bottom: 1em;
+  float: right;
+  margin-bottom: 1em;
 }
 ul.crew {
-    display: block;
-    
+  display: block;  
 }
