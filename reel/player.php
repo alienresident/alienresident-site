@@ -71,7 +71,7 @@ $file_offset_end = -3; // remove the last 'n' characters before file extension i
 /**
  * CSS Body Classes
  */
-$body_classes = "player";
+$body_classes = "reel player";
 
 /**
  * Video sources, codecs, and media queries.
@@ -79,7 +79,7 @@ $body_classes = "player";
  * What codecs and mediaquries are to be used with certain filenames: i.e '-sd' = (Standard Definition), 'avc1.64001E, mp4a.40.2' h264 high profile, aac audio, 'all and (max-width: 854px). Media Queries should only be used if $responsive = true;
  */
 $video_sources = array();
-//$video_sources[] = array('filename_stem' => '-hd', 'codec' =>'avc1.64001E, mp4a.40.2', 'media' =>'all and (min-width: 1280px)');
+$video_sources[] = array('filename_stem' => '-hd', 'codec' =>'avc1.64001E, mp4a.40.2', 'media' =>'all and (min-width: 1280px)');
 $video_sources[] = array('filename_stem' => '-sd', 'codec' =>'avc1.64001E, mp4a.40.2', 'media' =>'all and (max-width: 800px)');
 //$video_sources[] = array('filename_stem' => '-sm', 'codec' =>'avc1.42E01E, mp4a.40.2', 'media' =>'all and (max-width: 512px)'); 
 //$video_sources[] = array('filename_stem' => '-wb', 'codec' =>'vp8, vorbis', 'media' =>'');
