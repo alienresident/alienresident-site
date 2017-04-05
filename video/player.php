@@ -34,18 +34,17 @@ $h = 480;
  * Video Parameters
  */
 $html5_video = true;
-$poster_image = true;
+$poster_image = false;
 $video_tag_attributes = 'controls autoplay';
 $flash_fallback = false;
 
 /**
  * Content
  */
-$header = false;
+$header = true;
 $h1 = false;
 $h2 = true;
-//$heading2 = '<a href="'. $root_dir .  $playerurl .'" title="Home" rel="home">Mark Reilly&#039;s Reel</a>';
-$heading2 = '';
+$heading2 = 'Home Movies and Weddings';
 $footer = true;
 $footer_text = '';
 
@@ -94,5 +93,5 @@ $flash_fallback_source = '-sd';
 /**
  * Rest of the Php Part, Do Not Edit
  */
-include_once($root_dir . 'php/videoplayer.php');
+include_once($root_dir . '../videoplayer/php/videoplayer.php');
 ?>
