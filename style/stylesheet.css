@@ -181,6 +181,38 @@ h1.resume.header {
 #wrapper:after {
   clear: both;
 }
+/* Homepage */
+.homepage #wrapper {
+  background: #fff url(../images/homepage/spaceman.jpg) no-repeat fixed center 0;
+}
+
+#header {
+  width: 300px;
+  margin: 0px 0px 60px 350px;
+  text-align: center;
+  padding: 10px;
+}
+
+#content
+{
+  width: 600px;
+  margin: 20px 0px 180px 30px;
+  padding: 10px;
+  border: 1px dashed #ccc;
+  background: rgba(255,255,255,.75) url(../images/homepage/spaceman-fade.jpg) no-repeat fixed center 0;
+  background-blend-mode: luminosity; 
+}
+
+#footerhome
+{
+  width: 600px;
+  clear: both;
+  margin: 20px 0px 20px 30px;
+  text-align: left;
+  padding: 10px;
+  background-color: rgba(255,255,255,.75);
+  border: 1px dashed #ccc;
+}
 
 /* Reel Page */ 
 figure.videoplayer {
