@@ -7,7 +7,7 @@
  * Server Config
  */
 $dir = 'video';
-$playerurl = 'player.php';
+$playerurl = 'index.php';
 $root_dir = ''; 
  
 /**
