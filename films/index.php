@@ -6,7 +6,7 @@
 /**
  * Server Config
  */
-$dir = 'films';
+$dir = 'video';
 $playerurl = 'index.php';
 $root_dir = ''; 
  
@@ -64,32 +64,30 @@ $offline = false; // for development only: use a local copy of jQuery rather tha
 /**
  * Filename Variables
  */
-$dir_offset_start = 3; // remove the first 'n' characters from the directory name i.e. 3 = '01_' from O1_Artwork
+$dir_offset_start = 0; // remove the first 'n' characters from the directory name i.e. 3 = '01_' from O1_Artwork
 $file_offset_start = 0; // remove the first 'n' characters from the filename
 $file_offset_end = -3; // remove the last 'n' characters before file extension i.e. -3 will remove '-sd' from filename-sd.mp4
 
 /**
  * CSS Body Classes
  */
-$body_classes = "reel player";
+$body_classes = "films player";
 
 /**
  * Video sources, codecs, and media queries.
  *
- * What codecs and mediaquries are to be used with certain filenames: i.e '-sd' = (Standard Definition), 'avc1.64001E, mp4a.40.2' h264 high profile, aac audio, 'all and (max-width: 854px). Media Queries should only be used if $responsive = true;
+ * What codecs and mediaquries are to be used with certain filenames: i.e '-sd' = (Standard Definition), 'avc1.64001E, mp4a.40.2' h264 high profile, aac audio.
  */
 $video_sources = array();
-$video_sources[] = array('filename_stem' => '-hd', 'codec' =>'avc1.64001E, mp4a.40.2', 'media' =>'all and (min-width: 1280px)');
-$video_sources[] = array('filename_stem' => '-sd', 'codec' =>'avc1.64001E, mp4a.40.2', 'media' =>'all and (max-width: 800px)');
-//$video_sources[] = array('filename_stem' => '-sm', 'codec' =>'avc1.42E01E, mp4a.40.2', 'media' =>'all and (max-width: 512px)'); 
-//$video_sources[] = array('filename_stem' => '-wb', 'codec' =>'vp8, vorbis', 'media' =>'');
+//$video_sources[] = array('filename_stem' => '-hd', 'codec' => 'avc1.64001E, mp4a.40.2', 'media' =>'all and (min-width: 1280px)');
+$video_sources[] = array('filename_stem' => '-sd', 'codec' => 'avc1.64001E, mp4a.40.2');
+//$video_sources[] = array('filename_stem' => '-sm', 'codec' => 'avc1.42E01E, mp4a.40.2'); 
+//$video_sources[] = array('filename_stem' => '-wb', 'codec' => 'vp8, vorbis');
 
 /**
  * Which h264 File to Use a Flash Fallback
  */
 $flash_fallback_source = '-sd';
-
-
 
 /**
  * Rest of the Php Part, Do Not Edit
