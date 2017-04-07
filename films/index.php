@@ -79,7 +79,7 @@ $body_classes = "films player";
  * What codecs and mediaquries are to be used with certain filenames: i.e '-sd' = (Standard Definition), 'avc1.64001E, mp4a.40.2' h264 high profile, aac audio.
  */
 $video_sources = array();
-//$video_sources[] = array('filename_stem' => '-hd', 'codec' => 'avc1.64001E, mp4a.40.2', 'media' =>'all and (min-width: 1280px)');
+//$video_sources[] = array('filename_stem' => '-hd', 'codec' => 'avc1.64001E, mp4a.40.2');
 $video_sources[] = array('filename_stem' => '-sd', 'codec' => 'avc1.64001E, mp4a.40.2');
 //$video_sources[] = array('filename_stem' => '-sm', 'codec' => 'avc1.42E01E, mp4a.40.2'); 
 //$video_sources[] = array('filename_stem' => '-wb', 'codec' => 'vp8, vorbis');
