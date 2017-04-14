@@ -214,20 +214,31 @@ h1.resume.header {
   border: 1px dashed #ccc;
 }
 
-/* Reel Page */ 
+/* Video Player */ 
 figure.videoplayer {
   margin: 0;
 }
 figure.videoplayer video {
   background: #000;
 }
-.reel select#dirurl {
-  display: none;
-}
 form#dropdown_menu {
   float: right;
   margin-bottom: 1em;
 }
+
+/* Reel Page */
+.reel select#dirurl {
+  display: none;
+}
+.reel .mainnav a[href*="reel"]{
+  color: #fff;
+}
+
+/* Films Page */
+.films select#dirurl {
+  display: none;
+}
+
 ul.crew {
   display: block;  
 }
