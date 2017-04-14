@@ -21,7 +21,7 @@ $dropdown = true;
 $prev_next = false;
 $prev_text = '<span class="hidden">Previous</span>';
 $next_text = '<span class="hidden">Next</span>';
-$playlist = false;
+$playlist = true;
 $playlist_descriptions = true;
 
 /**
