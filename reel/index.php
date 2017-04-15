@@ -34,8 +34,8 @@ $h = 480;
  * Video Parameters
  */
 $html5_video = true;
-$poster_image = false;
-$video_tag_attributes = 'controls autoplay';
+$poster_image = true;
+$video_tag_attributes = 'controls';
 $flash_fallback = false;
 
 /**
