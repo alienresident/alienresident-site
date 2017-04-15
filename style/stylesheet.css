@@ -238,6 +238,9 @@ form#dropdown_menu {
 .films select#dirurl {
   display: none;
 }
+.films .mainnav a[href*="films"]{
+  color: #fff;
+}
 
 ul.crew {
   display: block;  
