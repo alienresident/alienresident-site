@@ -46,7 +46,6 @@ $header = true;
 $h1 = false;
 $h2 = true;
 $heading2 = 'Films';
-//$heading2 = '';
 $footer = true;
 $footer_text = '';
 
@@ -55,6 +54,7 @@ $footer_text = '';
  */
 $names_file = $root_dir . 'names.txt';
 $playlist_descriptions_file = $root_dir . 'descriptions.txt';
+$extended_descriptions_file = $root_dir . 'extended_descriptions.txt';
 
 /**
  * Advanced Player Configurable Variables

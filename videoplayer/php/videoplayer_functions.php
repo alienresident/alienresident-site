@@ -354,14 +354,14 @@ function set_playlist_list_items($type, $url, $dirurl, $playerurl, $file_names_i
 /**
  * set the extended description
  */
-function set_playlist_description($type, $file_names_deduped, $url, $dirurl, $playerurl, $file_names_images_deduped, $playlist_descriptions_file) {
+function set_playlist_description($type, $file_names_deduped, $url, $dirurl, $playerurl, $file_names_images_deduped, $extended_descriptions_file) {
   $descriptionextend = '';
   $fullurl = $playerurl . '?dirurl='. $dirurl . '&fileurl='; 
   foreach($file_names_deduped as $key => &$value) {
 
-    if(!is_null($playlist_descriptions_file)) { 
+    if(!is_null($extended_descriptions_file)) { 
       $ref = $value;
-      $description = video_code($ref, $playlist_descriptions_file);
+      $description = video_code($ref, $extended_descriptions_file);
       $description = "$description";
       
     } else {
@@ -370,7 +370,7 @@ function set_playlist_description($type, $file_names_deduped, $url, $dirurl, $pl
 
     $key = $key + 1;
     if($key == @$url) {
-      $descriptionextend .= "<p>$description</p>\n";
+      $descriptionextend .= "<h2>$value</h2><p>$description</p>\n";
     }
   }
   return $descriptionextend;

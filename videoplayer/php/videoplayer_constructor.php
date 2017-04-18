@@ -101,7 +101,7 @@ if(is_array($subdirectories_list) and isset($dirurl) and is_array($file_names_de
   }
   
   if($extended_description) {
-    $description_ext = set_playlist_description($files, $file_names_deduped, $fileurl, $dirurl, $playerurl, $file_names_images_deduped, $playlist_descriptions_file);
+    $description_ext = set_playlist_description($files, $file_names_deduped, $fileurl, $dirurl, $playerurl, $file_names_images_deduped, $extended_descriptions_file);
   }
 
   if($prev_next) {
