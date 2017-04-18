@@ -242,6 +242,18 @@ form#dropdown_menu {
   color: #fff;
 }
 
+.films ul#playlist {
+  margin: 0;
+  padding: 0;
+}
+
+.films ul#playlist li {
+  margin: 1em 0 2em 0;
+  padding: 0;
+}
+
+
+
 ul.crew {
   display: block;  
 }
