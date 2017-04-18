@@ -21,8 +21,9 @@ $dropdown = true;
 $prev_next = false;
 $prev_text = '<span class="hidden">Previous</span>';
 $next_text = '<span class="hidden">Next</span>';
-$playlist = true;
-$playlist_descriptions = true;
+$playlist = false;
+$playlist_descriptions = false;
+$extended_description = true;
 
 /**
  * Movie Dimensions

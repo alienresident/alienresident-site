@@ -333,7 +333,9 @@ function set_playlist_list_items($type, $url, $dirurl, $playerurl, $file_names_i
   foreach($type as $key => &$value) {
     if(!is_null($playlist_descriptions_file)) { 
       $ref = $value;
+
       $description = video_code($ref, $playlist_descriptions_file);
+
       $description = " <span>$description</span>";
     } else {
       $description = '';
@@ -347,4 +349,29 @@ function set_playlist_list_items($type, $url, $dirurl, $playerurl, $file_names_i
     }
   }
   return $listitem;
+}
+
+/**
+ * set the extended description
+ */
+function set_playlist_description($type, $file_names_deduped, $url, $dirurl, $playerurl, $file_names_images_deduped, $playlist_descriptions_file) {
+  $descriptionextend = '';
+  $fullurl = $playerurl . '?dirurl='. $dirurl . '&fileurl='; 
+  foreach($file_names_deduped as $key => &$value) {
+
+    if(!is_null($playlist_descriptions_file)) { 
+      $ref = $value;
+      $description = video_code($ref, $playlist_descriptions_file);
+      $description = "$description";
+      
+    } else {
+      $description = 'blank';
+    }
+
+    $key = $key + 1;
+    if($key == @$url) {
+      $descriptionextend .= "<p>$description</p>\n";
+    }
+  }
+  return $descriptionextend;
 }

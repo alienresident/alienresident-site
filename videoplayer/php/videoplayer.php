@@ -52,7 +52,7 @@
     <object type="application/x-shockwave-flash" data="../media/flash/232x20.swf?path=..%2Fmedia%2Fflash%2Falienresident-net-logo.swf" width="232" height="20">
       <param name="movie" value="../media/flash/232x20.swf?path=..%2Fmedia%2Fflash%2Falienresident-net-logo.swf" />
       <param name="wmode" value="transparent" />
-      <a href="../" title="Home"><img src="../images/main/alienresident_dot_net.png" alt="alienresident.net logo" /></a>
+      <a href="../" title="Home"><img src="images/main/alienresident_dot_net.png" alt="alienresident.net logo" /></a>
     </object>
   </div> 
 <div id="main">
@@ -100,6 +100,11 @@
 <?php endif; ?>          
       <?php print $video_tag_close; ?>
 <?php endif; ?>
+
+<?php if($extended_description): ?>
+  <?php print $description_ext; ?>
+<?php endif; ?>
+
 <?php if($playlist): ?>
 <aside role="complimentary">
   <nav role="navigation">
