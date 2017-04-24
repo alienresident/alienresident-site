@@ -102,6 +102,7 @@ ul.block,li.block{display:block;font-weight:bold;list-style-type:disc;}
 #lnav li{display: inline;font-family:Arial,Helvetica,Verdana,sans-serif;font-size:14px;line-height:24px;font-weight:bold;padding: 10px;}
 #lnav li a{text-decoration:none;color:#333;}
 #lnav li a:hover{color:#b00;}
+#lnav li:first-child{padding-left: 0;}
 #nav:before, #lnav:after {
   clear: both;
 }
