@@ -22,7 +22,7 @@ $prev_next = false;
 $prev_text = '<span class="hidden">Previous</span>';
 $next_text = '<span class="hidden">Next</span>';
 $playlist = false;
-$playlist_descriptions = true;
+$playlist_descriptions = false;
 
 /**
  * Movie Dimensions
@@ -79,7 +79,7 @@ $body_classes = "reel player";
  * What codecs and mediaquries are to be used with certain filenames: i.e '-sd' = (Standard Definition), 'avc1.64001E, mp4a.40.2' h264 high profile, aac audio.
  */
 $video_sources = array();
-$video_sources[] = array('filename_stem' => '-hd', 'codec' => 'avc1.64001E, mp4a.40.2');
+//$video_sources[] = array('filename_stem' => '-hd', 'codec' => 'avc1.64001E, mp4a.40.2');
 $video_sources[] = array('filename_stem' => '-sd', 'codec' => 'avc1.64001E, mp4a.40.2');
 //$video_sources[] = array('filename_stem' => '-sm', 'codec' => 'avc1.42E01E, mp4a.40.2'); 
 //$video_sources[] = array('filename_stem' => '-wb', 'codec' => 'vp8, vorbis');
