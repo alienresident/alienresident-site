@@ -23,6 +23,7 @@ $prev_text = '<span class="hidden">Previous</span>';
 $next_text = '<span class="hidden">Next</span>';
 $playlist = false;
 $playlist_descriptions = false;
+$extended_description = true;
 
 /**
  * Movie Dimensions
@@ -54,6 +55,7 @@ $footer_text = '';
  */
 $names_file = $root_dir . 'names.txt';
 $playlist_descriptions_file = $root_dir . 'descriptions.txt';
+$extended_descriptions_file = $root_dir . 'extended_descriptions.txt';
 
 /**
  * Advanced Player Configurable Variables
