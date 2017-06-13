@@ -49,10 +49,10 @@
       <li class="inline"><a href="../reel/index.php?dirurl=1" class="mainnav" title="See my reel">reel</a></li>
       <li class="inline"><a href="../films/index.php?dirurl=1" class="mainnav" title="Watch the films of alienresident.net">films</a></li>
     </ul>
-    <object type="application/x-shockwave-flash" data="../media/flash/232x20.swf?path=..%2Fmedia%2Fflash%2Falienresident-net-logo.swf" width="232" height="20">
-      <param name="movie" value="../media/flash/232x20.swf?path=..%2Fmedia%2Fflash%2Falienresident-net-logo.swf" />
+    <object type="application/x-shockwave-flash" data="../../media/flash/232x20.swf?path=..%2F..%2Fmedia%2Fflash%2Falienresident-net-logo.swf" width="232" height="20">
+      <param name="movie" value="../../media/flash/232x20.swf?path=..%2F..%2Fmedia%2Fflash%2Falienresident-net-logo.swf" />
       <param name="wmode" value="transparent" />
-      <a href="../" title="Home"><img src="images/main/alienresident_dot_net.png" alt="alienresident.net logo" /></a>
+      <a href="../" title="Home"><img src="../../images/main/alienresident_dot_net.png" alt="alienresident.net logo" /></a>
     </object>
   </div> 
 <div id="main">
