@@ -3,14 +3,13 @@
 ### Main Navigation
 
 * [Design](http://www.markreilly.com)
-	* Archive 
+	* Archive
+	* Titles 
 * [Resume](http://resume.markreilly.com)
 * [Reel](reel/)
-* [Films](films)
-* [Projections](projections/)
-* [Contact](contact/)
+* [Films](films/)
 * Video?
 	* Reel
 	* Films
-	* Projections 	
-	* Weddings?	
+	* ~Projections~ 	
+	* Family	
